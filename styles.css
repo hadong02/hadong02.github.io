@@ -1,61 +1,130 @@
-body {
+body
+{
     background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: #ff4757;
+header
+{
+    background-color: rgb(255, 74, 74);
     color: white;
     padding: 20px;
     text-align: center;
+    border-radius: 20px;
 }
 
-nav ul {
+.info
+{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 10px;
+    color: white;
+}
+
+nav
+{
+    margin-top: 10px;
+}
+
+nav ul
+{
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
-nav ul li {
+nav ul li
+{
     margin: 0 15px;
 }
 
-nav ul li a {
+nav ul li a
+{
     color: white;
+    text-decoration: none;
 }
 
-main {
+main
+{
+    display: inline-block;
     padding: 20px;
 }
 
-section {
-    margin-bottom: 40px;
+#home
+{
+    position: absolute;
+    width: 1150px;
+    top: 200px;
+    left: 356px;
+    text-align: center;
+}
+
+#history
+{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    width: 300px;
+    height: 1460px;
+}
+
+#player 
+{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    width: 300px;
+    height: 1460px;
+}
+
+#highlight
+{
+    position: absolute;
+    width: 1150px;
+    top: 1150px;
+    left: 356px;
+}
+
+section
+{
     background-color: white;
     padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.highlight-video {
+.highlight-video
+{
     margin-bottom: 20px;
 }
 
-iframe {
+iframe
+{
     width: 100%;
     height: 315px;
 }
 
-.championship {
+.championship
+{
     margin-bottom: 20px;
 }
 
-.championship-photo {
-    width: 300px;
-    height: 200px;
+.championship-photo
+{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-.player {
+.player
+{
     margin-bottom: 20px;
 }
 
-.player-photo {
-    width: 100px;
-    height: 80px;
+.player-photo
+{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
 }
