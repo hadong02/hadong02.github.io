@@ -1,0 +1,61 @@
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff4757;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+}
+
+.highlight-video {
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+}
+
+.championship {
+    margin-bottom: 20px;
+}
+
+.championship-photo {
+    width: 300px;
+    height: 200px;
+}
+
+.player {
+    margin-bottom: 20px;
+}
+
+.player-photo {
+    width: 100px;
+    height: 80px;
+}
