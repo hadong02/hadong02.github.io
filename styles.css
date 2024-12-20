@@ -1,7 +1,6 @@
 body
 {
     background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
 }
 
 header
@@ -51,39 +50,39 @@ main
     padding: 20px;
 }
 
-#home
+#one
 {
-    position: absolute;
-    width: 1150px;
-    top: 200px;
-    left: 356px;
+    width: 63%;
+    height: 70%;
+    float: left;
     text-align: center;
+    position: relative;
+    left: 4px;
 }
 
 #history
 {
-    position: absolute;
-    top: 200px;
-    left: 10px;
-    width: 300px;
-    height: 1460px;
+    width: 15%;
+    height: 3218px;
+    float: left;
 }
 
 #player 
 {
-    position: absolute;
-    top: 200px;
-    right: 10px;
-    width: 300px;
-    height: 1460px;
+    width: 15%;
+    height: 3218px;
+    float: right;
 }
 
-#highlight
+#two
 {
-    position: absolute;
-    width: 1150px;
-    top: 1150px;
-    left: 356px;
+    width: 63%;
+    height: 70%;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 4px;
+    top : 5px;
 }
 
 section
@@ -94,15 +93,37 @@ section
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.highlight-video
+#three
 {
-    margin-bottom: 20px;
+    width: 63%;
+    height: 70%;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 4px;
+    top : 10px;
 }
 
-iframe
+#four
 {
-    width: 100%;
-    height: 315px;
+    width: 63%;
+    height: 70%;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 4px;
+    top : 15px;
+}
+
+#five
+{
+    width: 63%;
+    height: 70%;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 4px;
+    top : 20px;
 }
 
 .championship
@@ -127,4 +148,66 @@ iframe
     width: 250px;
     height: 150px;
     border-radius: 10px;
+}
+
+.SKT2015
+{
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.SKT2017
+{
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.SKT2021
+{
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.redbull
+{
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+
+footer
+{
+    background-color: rgb(255, 74, 74);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+button
+{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgb(255, 74, 74);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover
+{
+    background-color: rgb(255, 32, 32);
 }
